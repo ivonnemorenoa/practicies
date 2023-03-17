@@ -1,3 +1,8 @@
-p{
-    color: green;
+.contador-inactivo {
+    color: red;
+}
+
+.contador-activo {
+    color: rgb(0, 0, 255);
+    font-size: 40px;
 }
