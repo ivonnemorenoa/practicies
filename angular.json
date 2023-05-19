@@ -146,6 +146,11 @@
       }
     }
   },
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "scss"
+    }
+  },
   "cli": {
     "schematicCollections": [
       "@cypress/schematic",

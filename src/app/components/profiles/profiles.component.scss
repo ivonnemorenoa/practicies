@@ -1,0 +1,25 @@
+.container-fluid{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: papayawhip;
+}
+
+.gallery{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    column-gap: 10px;
+
+    .gallery-image{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+}
+
