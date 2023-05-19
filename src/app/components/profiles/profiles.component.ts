@@ -4,7 +4,7 @@ import { Profile } from 'src/app/interfaces/profile.interface';
 @Component({
   selector: 'app-profiles',
   templateUrl: './profiles.component.html',
-  styleUrls: ['./profiles.component.css']
+  styleUrls: ['./profiles.component.scss']
 })
 export class ProfilesComponent {
   @Input() name!: string;
