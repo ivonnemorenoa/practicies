@@ -3,11 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AvatarComponent } from './components/avatar/avatar.component';
-import { AvatarModule } from './components/avatar/avatar.module';
+import { ContactoComponent } from './components/contacto/contacto.component';
+import { ContactoModule } from './components/contacto/contacto.module';
 import { ProfilesModule } from './components/profiles/profiles.module';
 import { MediaEventsComponent } from './media-events/media-events.component';
-import { ProfileResumeModule } from './components/profile-resume/profile-resume.module';
+import { AsignaturaModule } from './components/asignatura/asignatura.module';
 
 @NgModule({
   declarations: [
@@ -17,9 +17,9 @@ import { ProfileResumeModule } from './components/profile-resume/profile-resume.
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AvatarModule,
     ProfilesModule,
-    ProfileResumeModule,
+    ContactoModule,
+    AsignaturaModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

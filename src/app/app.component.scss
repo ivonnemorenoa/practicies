@@ -1,8 +1,12 @@
-.contador-inactivo {
-    color: red;
-}
 
-.contador-activo {
-    color: rgb(0, 0, 255);
-    font-size: 40px;
+
+.app-container{
+    min-height: 100vh ;
+    // background-color: red;
+    display: flex;
+    flex-direction: column;
+
+    .app-content {
+        flex: 1;
+    }
 }
