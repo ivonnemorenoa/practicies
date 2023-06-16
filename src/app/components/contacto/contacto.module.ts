@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContactoComponent } from './contacto.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -9,8 +10,9 @@ import { ContactoComponent } from './contacto.component';
     ContactoComponent
   ],
   imports: [
-    CommonModule
-  ] ,
+    CommonModule,
+    ReactiveFormsModule,
+  ],
    exports: [
     ContactoComponent
   ]

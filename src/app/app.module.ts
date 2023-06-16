@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ContactoComponent } from './components/contacto/contacto.component';
 import { ContactoModule } from './components/contacto/contacto.module';
 import { ProfilesModule } from './components/profiles/profiles.module';
 import { MediaEventsComponent } from './media-events/media-events.component';

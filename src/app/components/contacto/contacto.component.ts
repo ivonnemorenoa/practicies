@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-contacto',
@@ -6,7 +7,13 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./contacto.component.css']
 })
 export class ContactoComponent {
-  @Input() avatarUrl!: string;
   
+  constructor() {} 
 
+  formulario = new FormGroup({
+    name : new FormControl('', Validators.required),
+    email : new FormControl('', Validators.required),
+    number : new FormControl('', Validators.required), 
+    comments : new FormControl('', Validators.required),
+  });
 }
