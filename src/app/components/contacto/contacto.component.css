@@ -1,4 +1,9 @@
 
 .col-6{
-    padding: 4px;
+    padding: 2px;
+}
+
+
+#map {
+    height: 300px;
 }
