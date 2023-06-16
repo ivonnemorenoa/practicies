@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Profile } from 'src/app/interfaces/profile.interface';
 
 @Component({
@@ -6,8 +7,10 @@ import { Profile } from 'src/app/interfaces/profile.interface';
   templateUrl: './profiles.component.html',
   styleUrls: ['./profiles.component.scss']
 })
-export class ProfilesComponent {
-  @Input() name!: string;
-  @Input() items!: Profile[];
+export class ProfilesComponent  {
+  // @Input() name!: string;
+  // @Input() items!: Profile[];
 
+  
 }
+

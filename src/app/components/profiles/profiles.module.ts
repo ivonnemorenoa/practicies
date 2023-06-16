@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProfilesComponent } from './profiles.component';
-import { AvatarModule } from '../avatar/avatar.module';
-import { ProfileResumeModule } from '../profile-resume/profile-resume.module';
+import { ContactoModule } from '../contacto/contacto.module';
+import { AsignaturaModule } from '../asignatura/asignatura.module';
+import { RouterModule } from '@angular/router';
+import { AsignaturaComponent } from '../asignatura/asignatura.component';
 
 
 
@@ -12,8 +14,9 @@ import { ProfileResumeModule } from '../profile-resume/profile-resume.module';
   ],
   imports: [
     CommonModule,
-    AvatarModule,
-    ProfileResumeModule,
+    RouterModule,
+    ContactoModule,
+    AsignaturaModule,
   ],
   exports: [
     ProfilesComponent
