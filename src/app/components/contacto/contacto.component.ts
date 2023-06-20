@@ -26,14 +26,16 @@ export class ContactoComponent {
     }).addTo(map);
 
     const options: L.MarkerOptions = {
-      icon: L.divIcon({
-        iconSize: [250, 250],
-        iconUrl: 'assets/map-icon.jpg',
+      icon: L.icon({
+        iconSize: [40,40],
+        iconUrl: './assets/map-icon.jpg',
       }),
     };
+     
 
     L.marker([25.6558881, -100.2644069], options).addTo(map)
-
+      // .bindPopup('Aquí estamos!.')
+      // .openPopup();
 
   }
 }
