@@ -1,6 +1,6 @@
 <div class="app-container">
 
-	<nav class="navbar bg-body-tertiary">
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="#">Formación Artística y Deportiva</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -34,9 +34,9 @@
 			Formación Artística y Deportiva
 		</div>
 		<div class="card-body">
-			<button type="button" class="btn btn-light">Home</button>
-			<button type="button" class="btn btn-light">Perfiles</button>
-			<button type="button" class="btn btn-light">Contactanos</button>
+			<button type="button" class="btn btn-light"><a class="nav-link" [routerLink]="'profiles'">Home</a></button>
+			<button type="button" class="btn btn-light"><a class="nav-link" [routerLink]="'asignatura'">Asignatura</a></button>
+			<button type="button" class="btn btn-light"><a class="nav-link" [routerLink]="'contactanos'">Contactanos</a></button>
 			<a href="https://www.instagram.com/ivonnemorenoa/" target="_blank" class="btn-ig">
 				<img src="assets/87390.png" alt="instagram" width="30" height="30"
 					class="d-inline-block align-text-top">
