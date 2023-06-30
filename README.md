@@ -28,4 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Deploy an Angular App to GitHub Pages With Angular CLI
 Interpretar Angular a vanilla en github
-[Karma](https://www.makeuseof.com/angular-app-github-deploy-using-angular-cli/)
+`https://www.makeuseof.com/angular-app-github-deploy-using-angular-cli/`
